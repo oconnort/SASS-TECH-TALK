@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>SASS - Super CSS</title>
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Tom O'Connor">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="reveal">
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<img src="img/sass-logo.png" alt="Sass Logo">
+					<h3 class="pad-top">CSS with superpowers</h3>
+				</section>
+
+				<section>
+					<i class="fa fa-cutlery"></i>
+					<h1>On Today's Menu</h1>
+						<h5>Who</h5>
+						<h5>What</h5>
+						<h5>Why</h5>
+						<h5>Where</h5>
+						<h5>When</h5>
+						<h5>How</h5>
+				</section>
+
+				<section>
+					<i class="fa fa-user"></i>
+					<h1>Who</h1>
+				</section>
+
+				<section>
+					<section>
+						<i class="fa fa-question-circle"></i>
+						<h1>What</h1>
+					</section>
+
+					<section>
+						<img src="img/superman-logo.png" alt="Superman Logo">
+						<h1><a href="http://sass-lang.com/" target="_blank">'Syntactically Awesome Stylesheets'</a></h1>
+					</section>
+					<section>
+						<h2><i class="fa fa-cogs"></i> Pre-process your CSS</h2>
+						<p>Use to power of SASS to generate your CSS</p>
+					</section>
+					<section>
+						<h2><i class="fa fa-code"></i> Tech</h2>
+						<p>Node.js &amp; SASS = SCSS</p>
+					</section>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<i class="fa fa-question-circle"></i>
+						<h1>Why</h1>
+					</section>
+					<section>
+						<h2><i class="fa fa-usd"></i>Variables</h2>
+						<p>Gone are the days of 'find' &amp; 'replace'</p>
+						<pre><code data-trim contenteditable>
+// What handy variables your are
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+.container {
+   background-color: $primary-color;
+}
+						</code></pre>
+					</section>
+					<section>
+						<h2><i class="fa fa-sort-amount-asc"></i> Nesting</h2>
+						<p>Visually write your CSS in a hierarchical manner</p>
+					</section>
+					<section>
+						<p>SCSS Input</p>
+						<pre><code data-trim contenteditable>// What nice children I have
+nav {
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+
+  li { display: inline-block; }
+
+  a {
+    display: block;
+    text-decoration: none;
+  }
+}
+						</code></pre>
+						<p>CSS Output</p>
+						<pre><code data-trim>
+nav ul {
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+}							
+						</code></pre>
+					</section>
+					<section>
+						<h2><i class="fa fa-cloud-download"></i> Import Partials</h2>
+						<p>Organise your CSS into a maintainable structure</p>
+						<pre><code data-trim>
+/* _reset.scss */
+
+html,
+body,
+ul,
+ol {
+  margin:  0;
+  padding: 0;
+}							
+						</code></pre>
+						<pre><code data-trim>
+/* base.scss */
+
+@import 'reset';
+
+body {
+  font-size: 100% Helvetica, sans-serif;
+  background-color: #efefef;
+}						
+						</code></pre>
+					</section>
+					<section>
+						<h2><i class="fa fa-lightbulb-o"></i>Mixins</h2>
+						<p>Create reusable components to writer smarter CSS</p>
+						<pre data-trim contenteditable><code>
+@mixin border-radius($radius: 5px) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+       -o-border-radius: $radius;
+          border-radius: $radius;
+}
+
+.box { @include border-radius(10px); }							
+						</code></pre>
+					</section>
+					<section>
+						<h2><i class="fa fa-files-o"></i>Inheritance</h2>
+						<p>Use your programmer brain to create Object orientented CSS</p>
+						<pre data-trim contenteditable><code>
+.button {
+  transition: all 0.25s ease-in;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.25);
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: gray;
+  color: black;
+}
+
+.orange-button {
+  @extend .button;
+  background-color: orange;
+  color: white;
+}
+						</code></pre>
+					</section>
+				</section>
+
+				<section>
+					<i class="fa fa-map-marker"></i>
+					<i class="fa fa-clock-o"></i>
+					<h1>Where &amp; When</h1>
+				</section>
+
+				<section>
+					<i class="fa fa-keyboard-o"></i>
+					<h1>How</h1>
+				</section>
+
+				<section data-background=''>
+					<i class="fa fa-link"></i>
+					<h1>Resources</h1>
+					<ul>
+						<li><a href="http://slid.es/" target='_blank'>slid.es</a></li>
+						<li><a href="http://fortawesome.github.io/Font-Awesome/" target='_blank'>Font Awesome</a></li>
+						<li><a href="http://smacss.com/" target='_blank'>SMACSS</a></li>
+						<li><a href="http://compass-style.org/" target='_blank'>Compass</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<i class="fa fa-comments"></i>
+					<h1>Questions</h1>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

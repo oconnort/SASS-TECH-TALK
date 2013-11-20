@@ -1,0 +1,956 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cons",
+				"console.error(message);"
+			],
+			[
+				"elem",
+				"angular.element	AngularJS"
+			],
+			[
+				"scope",
+				"angular: $rootScope"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"query",
+				"querystring"
+			],
+			[
+				"s",
+				"successResponse"
+			],
+			[
+				"jws",
+				"jwsSignature"
+			],
+			[
+				"priva",
+				"private_key"
+			],
+			[
+				"jw",
+				"jwsSignature"
+			],
+			[
+				"js",
+				"jwsHeader"
+			],
+			[
+				"pr",
+				"privateKey"
+			],
+			[
+				"PU",
+				"PUBLIC_KEY"
+			],
+			[
+				"req",
+				"requestOptions"
+			],
+			[
+				"prot",
+				"protocol"
+			],
+			[
+				"invalid",
+				"invalid_code"
+			],
+			[
+				"suc",
+				"successfully"
+			],
+			[
+				"succ",
+				"succeed"
+			],
+			[
+				"res",
+				"restify"
+			],
+			[
+				"Pu",
+				"PUBLIC_KEY"
+			],
+			[
+				"PUBI",
+				"PUBLIC_LIVE_KEY"
+			],
+			[
+				"de",
+				"deposit"
+			],
+			[
+				"Invoic",
+				"InvoiceItem"
+			],
+			[
+				"Invoie",
+				"InvoiceItem"
+			],
+			[
+				"inv",
+				"invalid_id"
+			],
+			[
+				"fi",
+				"findSuccessResponse"
+			],
+			[
+				"u",
+				"update"
+			],
+			[
+				"ref",
+				"refund"
+			],
+			[
+				"Invoi",
+				"InvoiceItem"
+			],
+			[
+				"in",
+				"invalid_id"
+			],
+			[
+				"htt",
+				"httpResponse"
+			],
+			[
+				"is",
+				"isUndefined"
+			],
+			[
+				"simp",
+				"simplifyUtils"
+			],
+			[
+				"dec",
+				"decodedPayload"
+			],
+			[
+				"M",
+				"MAX_TIMESTAMP_DIFF"
+			],
+			[
+				"T",
+				"TIMESTAMP"
+			],
+			[
+				"A",
+				"ALGORITHM"
+			],
+			[
+				"U",
+				"URI_HEADER"
+			],
+			[
+				"para",
+				"params"
+			],
+			[
+				"ur",
+				"url"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"sign",
+				"signature"
+			],
+			[
+				"err",
+				"errorResponse"
+			],
+			[
+				"par",
+				"parse"
+			],
+			[
+				"pa",
+				"payload"
+			],
+			[
+				"lg",
+				"log"
+			],
+			[
+				"er",
+				"errorResponse"
+			],
+			[
+				"re",
+				"requestOptions"
+			],
+			[
+				"host",
+				"hostname"
+			],
+			[
+				"pu",
+				"publicKey"
+			],
+			[
+				"tok",
+				"tokenID"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"obj",
+				"objMap"
+			],
+			[
+				"type",
+				"typeof"
+			],
+			[
+				"create",
+				"createPayment"
+			],
+			[
+				"ob",
+				"objMap"
+			],
+			[
+				"base",
+				"baseUrl"
+			],
+			[
+				"Paym",
+				"PaymentsApi"
+			],
+			[
+				"car",
+				"cardTokenParams"
+			],
+			[
+				"card",
+				"cardToken"
+			],
+			[
+				"po",
+				"post_options"
+			],
+			[
+				"method",
+				"httpMethod"
+			],
+			[
+				"sin",
+				"signature"
+			],
+			[
+				"sig",
+				"signature"
+			],
+			[
+				"a",
+				"action"
+			],
+			[
+				"API",
+				"API_BASE_LIVE_URL"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"g",
+				"guestFrame1"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"st",
+				"standard-border"
+			],
+			[
+				"modal",
+				"modal-widget"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"tex",
+				"text-color"
+			],
+			[
+				"cuso",
+				"customer-name"
+			],
+			[
+				"h",
+				"highlight-color"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/JSLint/JSLint.sublime-build",
+	"command_palette":
+	{
+		"height": 187.0,
+		"selected_items":
+		[
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"proje",
+				"Project: Save As"
+			],
+			[
+				"close",
+				"Project: Close"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"tex",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"te",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"javascript",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"spac",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rei",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"convert",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"jslin",
+				"JSLint: Run JSLint"
+			],
+			[
+				"lint",
+				"JSLint: Show JSLint Result"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"jsl",
+				"JSLint"
+			],
+			[
+				"sq",
+				"Set Syntax: SQL"
+			],
+			[
+				"node",
+				"Nodejs::Default File Settings"
+			],
+			[
+				"pro",
+				"Project: Save As"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"gist",
+				"Gist: Create Private Gist"
+			],
+			[
+				"grails",
+				"Set Syntax: Grails Domain (Groovy)"
+			],
+			[
+				"javac",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"xi",
+				"Create Xiki Buffer"
+			],
+			[
+				"javascp",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javascip",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"gi",
+				"Gist: Create Private Gist"
+			],
+			[
+				"javascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"groo",
+				"Set Syntax: Groovy"
+			],
+			[
+				"groov",
+				"Set Syntax: Groovy"
+			],
+			[
+				"side",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"h",
+				"Set Syntax: HTML"
+			],
+			[
+				"open",
+				"Gist: Open Gist"
+			],
+			[
+				"ope",
+				"Gist: Open Gist"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/oconnort/Documents/JS Presentations/Sass/css/theme/default.css",
+		"/Users/oconnort/Documents/JS Presentations/Sass/css/reveal.min.css",
+		"/Users/oconnort/Documents/JS Presentations/Sass/index.html",
+		"/Users/oconnort/Documents/JS Presentations/Sass/README.md",
+		"/Users/oconnort/Code/Nodejs/node_modules/simplify-commerce/lib/constants.js",
+		"/Users/oconnort/Code/Nodejs/test.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/sdk_tests/nodejs/bin/runtest",
+		"/Users/oconnort/Code/Fuelable/fuelable/sdk_tests/nodejs/src/sdk_tests.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/nodejs/test/oauth.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/nodejs/test/coupon.js",
+		"/Users/oconnort/Downloads/node/test/test.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/nodejs/test/_client-helper.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/nodejs/DomainObject.ftl",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/nodejs/lib/domain/simplify.ftl",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/nodejs/lib/payments.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/nodejs/theme/assets/css/main.css",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/nodejs/test/webhook.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/nodejs/test/subscription.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/nodejs/test/refund.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/nodejs/test/plan.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/nodejs/test/payment.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/nodejs/test/invoice.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/nodejs/test/invoice-item.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/nodejs/test/deposit.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/nodejs/test/customer.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/nodejs/test/chargeback.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/nodejs/test/cardToken.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/nodejs/lib/domain/_simplify.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/sdk/nodejs/test/cardToken.js",
+		"/Users/oconnort/.bash_profile",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/nodejs/lib/error.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/nodejs/lib/simplifyJws.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/nodejs/lib/simplifyUtils.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/nodejs/lib/constants.js.ftl",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/nodejs/test/test.js",
+		"/Users/oconnort/Library/Application Support/Sublime Text 2/Packages/JsFormat/JsFormat.sublime-settings",
+		"/Users/oconnort/Library/Application Support/Sublime Text 2/Packages/User/JsFormat.sublime-settings",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/nodejs/test/cardToken",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/nodejs/package.json",
+		"/Users/oconnort/Downloads/test/simplify-1.1.0/package.json",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/nodejs/lib/paymentsApi.js",
+		"/Users/oconnort/Code/Simplify/WebHookServer.js",
+		"/Users/oconnort/Downloads/nopCommerce 3.10/Nop.Plugin.Payments.PayPalExpressCheckout/Helpers/PayPalHelper.cs",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sharedDb.trace.db",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sharedDb.lock.db",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sharedDb.h2.db",
+		"/Users/oconnort/Library/Application Support/Sublime Text 2/Packages/Nodejs/Nodejs.sublime-settings",
+		"/Users/oconnort/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/oconnort/Downloads/untitled.js",
+		"/Users/oconnort/Library/Application Support/Sublime Text 2/Packages/User/Gist.sublime-settings",
+		"/Users/oconnort/Documents/Backups/Web.com/Brand.groovy",
+		"/Users/oconnort/Downloads/test.js",
+		"/tmp/skl/Gimp.app/Contents/Library/.DS_Store",
+		"/Users/oconnort/Code/Fuelable/fuelable/sdk_tests/nodejs/bin/download",
+		"/Users/oconnort/Code/Fuelable/fuelable/sdk_tests/nodejs/bin/env.sh",
+		"/Users/oconnort/Documents/JDBC/h2-license.txt",
+		"/Users/oconnort/Code/Fuelable/fuelable/sdk_tests/nodejs/build/test-output/build-report.xml",
+		"/Users/oconnort/Downloads/simplify-1.1.0/test/test.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/nodejs/theme/layouts/main.handlebars",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/nodejs/theme/assets/index.html",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/nodejs/theme/layouts/xhr.handlebars",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/sdk/nodejs/theme/layouts/main.handlebars",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/sdk/nodejs/simplify.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/sdk/nodejs/untitled.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/sdk_tests/nodejs/build.xml",
+		"/Users/oconnort/Code/Fuelable/fuelable/sdk_tests/build-report.xml",
+		"/Users/oconnort/Code/Fuelable/fuelable/sdk_tests/csharp/build/test-output/*.xml",
+		"/Users/oconnort/Code/Fuelable/fuelable/sdk_tests/ruby/build/test-output/*.xml",
+		"/Users/oconnort/Code/Fuelable/fuelable/sdk_tests/nodejs/src/build.xml",
+		"/Users/oconnort/Code/Fuelable/fuelable/sdk_tests/java/build.xml",
+		"/Users/oconnort/Code/Fuelable/fuelable/sdk_tests/build.xml",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/sdk/nodejs/test.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/sdk/nodejs/lib/paymentsApi.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/sdk/nodejs/lib/simplifyJws.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/sdk/nodejs/lib/constants.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/sdk/nodejs/node_modules/jws/index.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/sdk/python/simplifycommerce-sdk-python-1.1.0/simplify/__init__.py",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/ruby/lib/simplify/paymentsapi.rb",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/sdk/nodejs/txt.txt",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/sdk/python/simplifycommerce-sdk-python-1.1.0/txt.txt",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/sdk/python/simplifycommerce-sdk-python-1.1.0/test.py",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/sdk/nodejs/node_modules/jws/node_modules/jwa/index.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/sdk/nodejs/package.json",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/sdk/nodejs/node_modules/jws/node_modules/base64url/package.json",
+		"/Library/Python/2.7/site-packages/simplify/__init__.py",
+		"/Library/Python/2.7/site-packages/simplify/constants.py",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/sdk/python/simplifycommerce-sdk-python-1.1.0/setup.py",
+		"/Library/Python/2.7/site-packages/simplify/domain.py",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/sdk/python/simplifycommerce-sdk-python-1.1.0/simplify/constants.py",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/sdk/python/simplifycommerce-sdk-python-1.1.0/build/lib/simplify/constants.py",
+		"/Users/oconnort/Code/Fuelable/fuelable/.gitignore",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/sdk/nodejs/README.md",
+		"/Users/oconnort/Downloads/simplify-1.1.0 2/lib/paymentsApi.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/sdk/nodejs/README.md.ftl",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/sdk/nodejs/simplify-1.1.0/package.json",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/sdk/nodejs/simplify-1.1.0/README.md",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/sdk/nodejs/simplify-1.1.0/simplify.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/sdk_tests/ruby/src/test_helpers.rb",
+		"/Users/oconnort/Code/Fuelable/fuelable/sdk_tests/nodejs/build/lib/paymentsApi.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/sdk_tests/nodejs/src/sdk_tests2.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/sdk_tests/nodejs/bin/install",
+		"/Users/oconnort/Code/Fuelable/fuelable/sdk_tests/README.txt",
+		"/private/etc/hosts",
+		"/Users/oconnort/Code/Fuelable/fuelable/sdk_tests/nodejs/build/lib/constants.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/sdk_tests/ruby/src/sdk_tests.rb",
+		"/Users/oconnort/Code/Fuelable/fuelable/sdk_tests/java/src/com/simplify/payments/test/SDKFunctionalTests.java",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/examples/nodejs/payment/create_cardToken.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/examples/nodejs/payment/create_default.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/examples/nodejs/customer/create_subscription.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/examples/nodejs/customer/create_default.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/examples/nodejs/customer/update_default.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/examples/nodejs/oauth/revoke_default.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/examples/nodejs/oauth/refresh_default.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/examples/nodejs/oauth/payment_default.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/examples/nodejs/oauth/api_default.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/examples/nodejs/oauth/access_default.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/examples/nodejs/webhook/create_default.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/examples/nodejs/customer/show_default.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/examples/nodejs/customer/list_default.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/examples/nodejs/customer/delete_default.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/examples/nodejs/customer/create_subscriptions.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/examples/nodejs/customer/create_cardToken.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/examples/nodejs/coupon/update_default.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/examples/nodejs/coupon/create_default.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/examples/nodejs/coupon/delete_default.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/examples/nodejs/coupon/list_default.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/examples/nodejs/coupon/show_default.js",
+		"/Users/oconnort/Code/Fuelable/fuelable/payments/target/generated/examples/nodejs/cardToken/show_default.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<open folders>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mod",
+			"max-he",
+			"code",
+			"color",
+			"background",
+			"sbpb_964BC803ADF012",
+			"Simplify.",
+			"paramat",
+			"invoiceItem",
+			"cardtoken",
+			"cardToken",
+			"CardToken",
+			"cardToken",
+			"cardtoken",
+			"cardToken",
+			"Simplify",
+			"Simplify.W",
+			"Simplify",
+			"Simplify.S",
+			"Simplify.C",
+			"Simplify.P",
+			"simplify",
+			"Simplify.R",
+			"Simplify.P",
+			"Simplify.A",
+			"Simplify.I",
+			"Simplify.D",
+			"Simplify.C",
+			"Simplify",
+			"opts",
+			"getAuth()",
+			"successResponse",
+			"updateSuccessResponse",
+			"successResponse",
+			"findSuccessResponse",
+			"successResponse",
+			"deleteSuccessResponse",
+			"successResponse",
+			"updateSuccessResponse",
+			"customerResponse",
+			"findSuccessResponse",
+			"customerResponse",
+			"deleteSuccessResponse",
+			"customerResponse",
+			"successResponse",
+			"customerResponse",
+			"successResponse",
+			"planResponse",
+			"findSuccessResponse",
+			"createSuccessResponse",
+			"deleteSuccessResponse",
+			"findSuccessResponse",
+			"updateSuccessResponse",
+			"successResponse",
+			"findSuccessResponse",
+			"successResponse",
+			"Acces",
+			"successResponse",
+			"errorResponse",
+			"successResponse",
+			"errorResponse",
+			"successResponse",
+			"updateSuccessResponse",
+			"successResponse",
+			"findSuccessResponse",
+			"successResponse",
+			"deleteSuccessResponse",
+			"successResponse",
+			"updateSuccessResponse",
+			"findSuccessResponse",
+			"deleteSuccessResponse",
+			"successResponse",
+			"new Error",
+			"new Erro",
+			"new Error",
+			"JWSError",
+			"JWSbaseError",
+			"DatabaseError",
+			".generateRandomNumber",
+			".isLiveKey",
+			".generateError",
+			".execCallBack",
+			"simplifyUtils",
+			"isJws",
+			"isjw",
+			".execCallBack",
+			"successHandler, errorHandler",
+			"success",
+			"callback",
+			"generateEr",
+			"areAPIKeysSet",
+			"areapiKey",
+			"errorHandler",
+			"successHandler",
+			"http",
+			"restify",
+			"generateError",
+			"createHa",
+			"generateRandomNumber",
+			"random",
+			"Constants",
+			"utils",
+			"line",
+			"PaymentsApi",
+			"PaymentsA",
+			"PaymentsApi",
+			"){",
+			"if(",
+			"<",
+			">",
+			"<",
+			"RUBY_SDK_VERSION",
+			"TEST_BASE_URL",
+			"TEST_BUILD_DIR",
+			"TEST_DOWNLOAD_DIR",
+			"nodejs",
+			".apis",
+			"intro",
+			"font-fam",
+			"color",
+			"combo",
+			"http",
+			"2647A0",
+			"getRequestOptions",
+			"para",
+			"POST",
+			"Request(",
+			"POST"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"ff6600",
+			"done(new Error(JSON.stringify(errorResponse)));",
+			"JWS_HEADERS",
+			"successHandler",
+			"Simplify",
+			"&"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 325.0
+	},
+	"output.jslint_result_view":
+	{
+		"height": 223.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"paymn",
+				"nodejs/lib/paymentsApi.js"
+			],
+			[
+				"das",
+				"dashboard.html"
+			],
+			[
+				"da",
+				"dashboard.html"
+			],
+			[
+				"acc",
+				"account.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 180.0,
+	"status_bar_visible": true
+}
